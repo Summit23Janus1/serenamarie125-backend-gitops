@@ -1,0 +1,15 @@
+app:
+  name: poi-backend-app
+  namespace: serenamarie125
+  cluster: .apps.summit23rock.n26o.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23Janus1/serenamarie125-backend
+  org: Summit23Janus1
+  name: serenamarie125-backend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: serenamarie125/poi-backend-app
+  tag: latest
